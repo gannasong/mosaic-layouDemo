@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491DC41D1EF016450095A293 /* IGTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491DC41C1EF016450095A293 /* IGTest.swift */; };
 		49AFF09E1EEF70C5002E21F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AFF09D1EEF70C5002E21F1 /* AppDelegate.swift */; };
-		49AFF0A01EEF70C5002E21F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AFF09F1EEF70C5002E21F1 /* ViewController.swift */; };
 		49AFF0A31EEF70C5002E21F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AFF0A11EEF70C5002E21F1 /* Main.storyboard */; };
 		49AFF0A51EEF70C5002E21F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AFF0A41EEF70C5002E21F1 /* Assets.xcassets */; };
 		49AFF0A81EEF70C5002E21F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AFF0A61EEF70C5002E21F1 /* LaunchScreen.storyboard */; };
+		49AFF0B01EEF71B1002E21F1 /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AFF0AF1EEF71B1002E21F1 /* MainCollectionViewController.swift */; };
+		49AFF0B21EEF7309002E21F1 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AFF0B11EEF7309002E21F1 /* MainCollectionViewCell.swift */; };
+		F2A5E0E083996B4CD3FC8C93 /* Pods_mosaic_layouDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0035990403C01551A4FA9368 /* Pods_mosaic_layouDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0035990403C01551A4FA9368 /* Pods_mosaic_layouDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mosaic_layouDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		486C484F4022EA1CE81B1272 /* Pods-mosaic-layouDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mosaic-layouDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mosaic-layouDemo/Pods-mosaic-layouDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		491DC41C1EF016450095A293 /* IGTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGTest.swift; sourceTree = "<group>"; };
 		49AFF09A1EEF70C5002E21F1 /* mosaic-layouDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mosaic-layouDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AFF09D1EEF70C5002E21F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49AFF09F1EEF70C5002E21F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		49AFF0A21EEF70C5002E21F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49AFF0A41EEF70C5002E21F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49AFF0A71EEF70C5002E21F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49AFF0A91EEF70C5002E21F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49AFF0AF1EEF71B1002E21F1 /* MainCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
+		49AFF0B11EEF7309002E21F1 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		BDD176E217DA60725884C9F5 /* Pods-mosaic-layouDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mosaic-layouDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-mosaic-layouDemo/Pods-mosaic-layouDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A5E0E083996B4CD3FC8C93 /* Pods_mosaic_layouDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A7216D7AD3FAB26BAABAF28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				486C484F4022EA1CE81B1272 /* Pods-mosaic-layouDemo.debug.xcconfig */,
+				BDD176E217DA60725884C9F5 /* Pods-mosaic-layouDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		49AFF0911EEF70C5002E21F1 = {
 			isa = PBXGroup;
 			children = (
 				49AFF09C1EEF70C5002E21F1 /* mosaic-layouDemo */,
 				49AFF09B1EEF70C5002E21F1 /* Products */,
+				1A7216D7AD3FAB26BAABAF28 /* Pods */,
+				59F9FBA71AA85EECAB137BC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +75,23 @@
 			isa = PBXGroup;
 			children = (
 				49AFF09D1EEF70C5002E21F1 /* AppDelegate.swift */,
-				49AFF09F1EEF70C5002E21F1 /* ViewController.swift */,
+				49AFF0AF1EEF71B1002E21F1 /* MainCollectionViewController.swift */,
+				49AFF0B11EEF7309002E21F1 /* MainCollectionViewCell.swift */,
+				491DC41C1EF016450095A293 /* IGTest.swift */,
 				49AFF0A11EEF70C5002E21F1 /* Main.storyboard */,
 				49AFF0A41EEF70C5002E21F1 /* Assets.xcassets */,
 				49AFF0A61EEF70C5002E21F1 /* LaunchScreen.storyboard */,
 				49AFF0A91EEF70C5002E21F1 /* Info.plist */,
 			);
 			path = "mosaic-layouDemo";
+			sourceTree = "<group>";
+		};
+		59F9FBA71AA85EECAB137BC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0035990403C01551A4FA9368 /* Pods_mosaic_layouDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49AFF0AC1EEF70C5002E21F1 /* Build configuration list for PBXNativeTarget "mosaic-layouDemo" */;
 			buildPhases = (
+				DB73086C22F0446D702EFFF9 /* [CP] Check Pods Manifest.lock */,
 				49AFF0961EEF70C5002E21F1 /* Sources */,
 				49AFF0971EEF70C5002E21F1 /* Frameworks */,
 				49AFF0981EEF70C5002E21F1 /* Resources */,
+				75834EB1121EDFDFC91B7865 /* [CP] Embed Pods Frameworks */,
+				A99071115E3C09CEA7FA909E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +165,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		75834EB1121EDFDFC91B7865 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mosaic-layouDemo/Pods-mosaic-layouDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A99071115E3C09CEA7FA909E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mosaic-layouDemo/Pods-mosaic-layouDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB73086C22F0446D702EFFF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49AFF0961EEF70C5002E21F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49AFF0A01EEF70C5002E21F1 /* ViewController.swift in Sources */,
 				49AFF09E1EEF70C5002E21F1 /* AppDelegate.swift in Sources */,
+				49AFF0B21EEF7309002E21F1 /* MainCollectionViewCell.swift in Sources */,
+				49AFF0B01EEF71B1002E21F1 /* MainCollectionViewController.swift in Sources */,
+				491DC41D1EF016450095A293 /* IGTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +342,7 @@
 		};
 		49AFF0AD1EEF70C5002E21F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486C484F4022EA1CE81B1272 /* Pods-mosaic-layouDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W3V3KSSZTP;
@@ -272,6 +356,7 @@
 		};
 		49AFF0AE1EEF70C5002E21F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD176E217DA60725884C9F5 /* Pods-mosaic-layouDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W3V3KSSZTP;
@@ -302,6 +387,7 @@
 				49AFF0AE1EEF70C5002E21F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
